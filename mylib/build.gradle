@@ -1,5 +1,12 @@
 apply plugin: 'com.android.library'
 
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+
+
+versionCode = "AAA"
+
 android {
     compileSdkVersion 28
 
@@ -31,4 +38,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    // jitpack
+    // implementation 'com.github.bootstraponline:jitpack-tmp:-SNAPSHOT'
+    implementation 'com.github.bootstraponline:mylib:-1338454eb9-1'
 }
