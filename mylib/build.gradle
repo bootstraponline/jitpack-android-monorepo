@@ -4,7 +4,9 @@ apply plugin: 'com.android.library'
         maven { url 'https://jitpack.io' }
     }
 
-
+// https://github.com/jitpack/android-example/blob/master/library/build.gradle
+group = "mygroup"
+version = "myversion"
 versionCode = "AAA"
 
 android {
