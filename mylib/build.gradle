@@ -7,7 +7,6 @@ apply plugin: 'com.android.library'
 // https://github.com/jitpack/android-example/blob/master/library/build.gradle
 group = "mygroup"
 version = "myversion"
-versionCode = "AAA"
 
 android {
     compileSdkVersion 28
@@ -42,6 +41,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     // jitpack
-    // implementation 'com.github.bootstraponline:jitpack-tmp:-SNAPSHOT'
-    implementation 'com.github.bootstraponline:mylib:-1338454eb9-1'
+     implementation 'com.github.bootstraponline:jitpack-tmp:-SNAPSHOT'
+//    implementation 'com.github.bootstraponline:mylib:-1338454eb9-1'
 }
