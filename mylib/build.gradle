@@ -41,6 +41,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     // jitpack
-     implementation 'com.github.bootstraponline:jitpack-tmp:-SNAPSHOT'
+//     implementation 'com.github.bootstraponline:jitpack-tmp:84b6726f2d'
 //    implementation 'com.github.bootstraponline:mylib:-1338454eb9-1'
+    //
 }
