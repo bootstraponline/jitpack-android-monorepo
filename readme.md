@@ -6,7 +6,7 @@ JitPack defaults to publishing a single artifact with:
 - artifactId = repo
 - version = commit hash
 
-In a mono repo, that format is expaneed to:
+In a mono repo, that format is expaneded to:
 
 `user:repo:module:version`
 
